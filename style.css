@@ -3,7 +3,8 @@
   font-family: "Roboto", "Montserrat";
 }
 body {
-  background-color: rgb(255, 234, 84);
+  width: 100%;
+  background-color: antiquewhite;
 }
 .bg-img {
   display: flex;
@@ -16,11 +17,8 @@ body {
   flex-direction: row;
   justify-content: flex-end;
   background-color: white;
-  position: fixed;
-  top: 0px;
-  left: 0px;
+  position: sticky;
   width: 100%;
-  padding: 5px;
 }
 #header-img {
   height: 50px;
