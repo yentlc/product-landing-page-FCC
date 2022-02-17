@@ -16,7 +16,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: white;
+  background-color: rgb(204, 204, 204);
   position: sticky;
   width: 100%;
 }
@@ -25,5 +25,5 @@ body {
   align-self: flex-start;
 }
 #nav-bar {
-  background-color: white;
+  background-color: rgb(204, 204, 204);
 }
