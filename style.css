@@ -11,7 +11,7 @@ body {
 }
 #header {
   max-height: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 255, 255);
   display: flex;
@@ -21,6 +21,9 @@ body {
 }
 #header-img {
   height: 50px;
+}
+#suscribe {
+  text-align: center;
 }
 #features {
   display: flex;
@@ -41,10 +44,8 @@ body {
   padding: 10px;
   text-align: center;
 }
-
-.bg-img {
-  display: flex;
-  position: absolute;
-  width: 50%;
-  z-index: -1;
+@media (max-width: 800px) {
+  body {
+    padding: 20px;
+  }
 }
