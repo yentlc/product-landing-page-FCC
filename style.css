@@ -4,26 +4,47 @@
 }
 body {
   width: 100%;
-  background-color: antiquewhite;
-}
-.bg-img {
+  background-color: rgb(255, 255, 255);
   display: flex;
-  position: absolute;
-  width: 30%;
+  flex-direction: column;
+  align-items: center;
 }
 #header {
   max-height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  background-color: rgb(204, 204, 204);
   position: sticky;
+  top: 0;
   width: 100%;
 }
 #header-img {
   height: 50px;
-  align-self: flex-start;
 }
-#nav-bar {
-  background-color: rgb(204, 204, 204);
+#features {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+}
+#prices {
+  display: flex;
+  flex-direction: row;
+  max-width: 800px;
+  justify-content: space-between;
+  align-items: center;
+}
+.prices {
+  background-color: aquamarine;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.bg-img {
+  display: flex;
+  position: absolute;
+  width: 50%;
+  z-index: -1;
 }
